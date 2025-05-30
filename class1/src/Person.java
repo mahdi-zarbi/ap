@@ -20,7 +20,7 @@ public class Person {
     public int getAge(){
         return this.age;
     }
-//sxxxxxxxxxxxxxxxxx
+
     static int a;
 
     static void staticShow(){
