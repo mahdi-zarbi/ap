@@ -1,4 +1,6 @@
-public class BaseEmployee implements Employye{
+package q1;
+
+public class BaseEmployee implements Employye {
     String name;
     int id;
     int age;

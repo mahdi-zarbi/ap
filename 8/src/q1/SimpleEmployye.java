@@ -1,4 +1,6 @@
-public class SimpleEmployye extends BaseEmployee{
+package q1;
+
+public class SimpleEmployye extends BaseEmployee {
     double Salary;
 
     public SimpleEmployye(String name, int age,int id,double Salary){

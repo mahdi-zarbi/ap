@@ -1,3 +1,5 @@
+package q1;
+
 public class Company {
     public static void main(String[] args) {
         SimpleEmployye emp1 = new SimpleEmployye("mahdi", 30, 101, 5000);
