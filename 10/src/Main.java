@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Iterator;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args){
@@ -56,7 +57,18 @@ public class Main {
 
         //----------------game-----------------
         System.out.println("-----------4.game by card------------");
-
-
+        Card [] card=new Card[52];
+        int k = 0;
+        for(int i = 0;i<4;i++){
+            for(int j = 0; j< 13;j++){
+                card[k] = new Card(Card.types[i], Card.numbers[j]);
+                k++;
+            }
+        }
+        Random rand = new Random();
+        for(int i = 0;i<5;i++){
+            int randNumber = rand.nextInt(52);
+            System.out.println(card[randNumber].toString());
+        }
     }
 }
